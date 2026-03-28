@@ -1,0 +1,27 @@
+# Environment
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Models & Encodings (large binary files)
+models/face_encodings.pkl
+
+# Logs & Snapshots
+logs/
+*.csv
+*.xlsx
+
+# Dataset (personal face images — do not commit)
+dataset/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
